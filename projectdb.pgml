@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="rgb(177,147,50)"/>
+                <dmcolor key="secondary" color="rgb(93,76,26)"/>
+                <dmcolor key="info" color="rgb(225,208,151)"/>
+                <dmcolor key="success" color="#077c76"/>
+                <dmcolor key="warning" color="#f39568"/>
+                <dmcolor key="danger" color="#692340"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#2d374b"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Lato" text_weight="" text_color="" text_spacing="" text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_family="Spectral" headings_weight="" headings_color="" headings_spacing="" headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase=""></dmdesignskill>
+            <dmdesignskill skill="headings" h1_family="" h2_family="" h1_weight="" h1_color="" h1_spacing="" h1_effect="" h1_italic="" h1_smallcaps="" h1_uppercase="" h2_weight="" h2_color="" h2_spacing="" h2_effect="" h2_italic="" h2_smallcaps="" h2_uppercase=""></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDY5fHx3YWxscGFwZXJ8ZW58MHx8fHwxNzI5MjY2ODIwfDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" shadows="1" buttonRoundness="3" roundness="3" gradients="" responsive_fonts=""></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true"></dmlocked>
+</project>
