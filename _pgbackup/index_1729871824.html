@@ -11,18 +11,17 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
         <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
-        <script src="assets/js/popper.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/theme.min.js"></script>
     </head>
     <body class="bg-transparent">
         <header>
-            <nav class="bg-secondary-subtle fixed-top navbar navbar-expand-lg navbar-light position-sticky ps-0 sticky-top">
-                <div class="bg-danger container fixed-top flex-row mw-100  position-sticky sticky-top w-100" data-bs-toggle="popover"><a class="navbar-brand" href="#"><img class="navbar-brand-logo" img src="images/spider_man_logo.png" alt="Image Description"></a>
+            <nav class="bg-secondary-subtle navbar navbar-expand-lg navbar-light ps-0">
+                <div class="bg-danger container mw-100 w-100"><a class="navbar-brand" href="#"><img class="navbar-brand-logo" img src="images/spider_man_logo.png" alt="Image Description"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-1" aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown-1"> 
-                        <ul class="align-items-center align-items-sm-center bg-danger flex-lg-row ms-0 navbar-nav" style="font-size: 22px;"> 
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown-1"> 
+                        <ul class="justify-content-evenly ms-0 navbar-nav" style="font-size: 22px;"> 
                             <li class="nav-item" style="font-size: -1px;"> <a class="active link-light nav-link" aria-current="page" href="#" style="color: #c94a44;">Home</a> 
                             </li>                             
                             <li class="nav-item"> <a class="link-light nav-link" href="#" style="color: #c94a44;">About</a> 
@@ -38,24 +37,20 @@
                                 </div>                                 
                             </li>                             
                         </ul>                         
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>                         
                     </div>
                 </div>                 
             </nav>
         </header>
-        <main role="main" class=".d-none .d-sm-block">
+        <main role="main">
             <!-- Hero -->
-            <img src="images/spider_header.png" style="object-fit: cover; width: 100%; height: 100%;" class="d-lg-inline d-md-inline d-none d-sm-inline d-xl-inline d-xxl-inline"> 
+            <img src="images/spider_header.png" style="object-fit: cover; width: 100%; height: 100%;" class="sticky-top"> 
             <div class="d-md-none text-center mt-5">
 </div>
         </main>
         <!-- End Hero -->
         <!-- Features -->
-        <div class="container content-space-2 content-space-lg-3 lib-content mb-auto mt-5 mt-lg-5 p-5 p-lg-5 p-md-5" style="margin-bottom: 20px;">
-            <div class="container content-space-b-2 content-space-b-lg-3 mb-4 mt-0 pb-0 pt-0" style="margin-top: -1px; padding-top: 0px; padding-bottom: 8px; margin-bottom: 22px;">
+        <div class="container content-space-2 content-space-lg-3 lib-content mb-3 mt-1 pb-5 pt-5" style="margin-bottom: 20px;">
+            <div class=" container content-space-b-2 content-space-b-lg-3 mb-4 mt-0 pb-0 pt-0" style="margin-top: -1px; padding-top: 0px; padding-bottom: 8px; margin-bottom: 22px;">
                 <!-- Heading -->
                 <div class=" mb-0 mb-lg-10 mb-sm-7 mt-n3 mx-lg-auto pb-auto text-center w-lg-65" style="padding-top: 0px;">
                     <h2 style="padding-right: 7px;">Welcome to the Amazing Spider-Man Vintage Comics Collection</h2>
@@ -89,7 +84,7 @@
             <!-- End Row -->
         </div>
         <div class=" container content-space-b-2 content-space-b-lg-3 mb-4 mt-0 pb-0 pt-0" style="margin-top: -1px; padding-top: 0px; padding-bottom: 8px; margin-bottom: 22px;">
-            <div class=" flex-lg-nowrap justify-content-lg-between pe-5 ps-5 row">
+            <div class="flex-lg-nowrap justify-content-lg-between pe-5 ps-5 row">
                 <div class="col-md-6 mb-5 mb-md-0" style="padding-left: 38px; margin-left: 28px; padding-right: 39px;">
                     <h2>Spider-Man&apos;s True Origin</h2>
                     <p>Spider-Man was created in 1962 by writer Stan Lee and artist Steve Ditko, under the Marvel Comics brand. The idea for the character came about in a somewhat unconventional way, especially given the superhero trends of the time. Here&apos;s how Spider-Man came to life: READ MORE</p>
@@ -99,7 +94,7 @@
                     <p>Many talented writers have contributed to Spider-Man&apos;s long and complex comic book history since his debut in the 1960s. Each writer has brought their unique perspective, shaping the character and his universe in significant ways. Here&rsquo;s a summary of the key writers who have made major contributions to Spider-Man&apos;s legacy: READ MORE</p>
                 </div>
                 <!-- End Col -->
-                <div class="col-lg-5 col-md-4 pe-1" style="padding-right: 43px; margin-right: 51px; margin-left: 4px; padding-left: 31px;">
+                <div class="col-md-4 col-lg-5" style="padding-right: 43px; margin-right: 51px; margin-left: 4px; padding-left: 31px;">
                     <div class="d-grid gap-5">
                         <!-- Media -->
                         <div class="d-flex">
@@ -435,12 +430,16 @@
             <!-- End Col -->
             <!-- End Col -->
             <!-- End Col -->
-            <div class="col-12 col-lg col-md col-sm-5 mb-7 mb-sm-0">
-                <h2 class="text-center text-white">Comic Book Storage</h2>
-                <p class="text-center text-lg-start text-sm-center text-white text-xl-start text-xxl-start">Collecting comic books is more than just a hobby&mdash;it&rsquo;s an investment in history, art, and storytelling. Whether you&rsquo;re collecting for passion or profit, proper care is essential to maintain the value and condition of your comics. Over time, issues like dust, moisture, and sunlight can degrade even the most prized comics. Here&rsquo;s how to protect your comic book collection, with a special focus on safeguarding them from harmful UV rays. READ MORE</p>
+            <div class="col-6 col-sm-4 col-lg mb-7 mb-sm-0">
+                <h2 class="text-white">Comic Book Storage</h2>
+                <p class="text-white">Collecting comic books is more than just a hobby&mdash;it&rsquo;s an investment in history, art, and storytelling. Whether you&rsquo;re collecting for passion or profit, proper care is essential to maintain the value and condition of your comics. Over time, issues like dust, moisture, and sunlight can degrade even the most prized comics. Here&rsquo;s how to protect your comic book collection, with a special focus on safeguarding them from harmful UV rays. READ MORE</p>
+                <!-- List -->
+                <!-- End List -->
+                <!-- List -->
+                <!-- End List -->
             </div>
             <!-- End Col -->
-            <div class="col-12 col-lg col-sm-7"><span class="fs-4 text-cap text-white">Information</span>
+            <div class="col-6 col-sm-4 col-lg"><span class="fs-4 text-cap text-white">Information</span>
                 <!-- List -->
                 <ul class="list-unstyled list-py-2 mb-0">
                     <li>
@@ -483,6 +482,15 @@
                                 </div>
                             </div> </a>
                     </li>
+                    <li>
+                        <a class="link link-light link-light-75" href="#"> <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi-slack"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-2">
+</div>
+                            </div> </a>
+                    </li>
                 </ul>
                 <!-- End List -->
             </div>
@@ -492,4 +500,3 @@
     </div>
     <!-- End Row -->
 </div>
-<!-- End Row -->
